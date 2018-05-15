@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 /*
   The component renders the category page.
@@ -8,8 +7,7 @@ class CategoryPage extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Category</h1>
-        <Link to="/">landing</Link>
+        <h1>Main</h1>
       </div>
     );
   }
