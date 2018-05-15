@@ -1,0 +1,22 @@
+// reset
+@import './_reset.scss';
+
+// variables
+@import './_variables.scss';
+
+// language
+
+// base styles
+@import './_base.scss';
+
+// atoms
+@import '../components/atoms/ConceptLogo/_conceptLogo.scss';
+
+// molecules
+
+// organisms
+@import '../components/organisms/Header/_header.scss';
+
+// pages
+@import '../components/pages/Landing/_landingPage.scss';
+@import '../components/pages/Category/_categoryPage.scss';
