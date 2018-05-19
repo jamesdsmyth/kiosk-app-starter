@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
   The component renders a landing page grid item.
  */
 const LandingPageGridItem = ({ isPrimary, size }) => {
-  const classes = isPrimary ? `primary-grid-item--${size}` : null;
+  const classes = isPrimary ? `primary-grid-item__${size}` : null;
   return (
     <div className={`grid-item ${classes}`}>
       grid item

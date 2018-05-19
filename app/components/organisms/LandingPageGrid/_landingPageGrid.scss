@@ -5,21 +5,21 @@
   grid-auto-rows: minmax(50px, auto);
   direction: $bi-app-direction;
 
-  &--3 {
+  &__3 {
     grid-template-columns: 2fr 1fr 1fr;
   }
 
-  &--4 {
+  &__4 {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  &--7 {
+  &__7 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 2;
     grid-row-gap: 1em;
   }
 
-  &--10 {
+  &__10 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 3;
     grid-row-gap: 1em;
@@ -31,13 +31,13 @@
 
   .primary-grid-item {
 
-    &--7 {
+    &__7 {
       background: red;
       grid-row-start: 1;
       grid-row-end: 3;
     }
 
-    &--10 {
+    &__10 {
       background: blue;
       grid-row-start: 1;
       grid-row-end: 4;
