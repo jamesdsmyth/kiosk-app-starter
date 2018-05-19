@@ -2,7 +2,7 @@ import React from 'react';
 
 const LandingPageGridItem = () => (
   <div>
-    ff
+    image
   </div>
 );
 
