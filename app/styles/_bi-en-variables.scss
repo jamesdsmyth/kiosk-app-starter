@@ -1,0 +1,16 @@
+// namespacing variables with bi-app to
+// avoid conflicting with other global variables
+$bi-app-left 				        : left;
+$bi-app-right 				  	  : right;
+$bi-app-direction 				  : ltr;
+$bi-app-invert-direction		: rtl;
+$imp                    		: !important;
+$bi-app-font-family         : "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$bi-app-font-size-base      : 13px;
+$bi-app-lang                : en;
+$bc-separator: ">";
+$bi-app-lineheight          : 1.24;
+$bi-app-lineheight-ar       : 1.75;
+// Sometimes we need the left to be always left, no matter the language.
+$left: left;
+$right: right;
