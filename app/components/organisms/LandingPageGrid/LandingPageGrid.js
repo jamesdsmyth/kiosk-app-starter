@@ -14,6 +14,15 @@ const LandingPageGrid = () => (
       <LandingPageGridItem />
       <LandingPageGridItem />
     </section>
+    <section className="grid grid--7">
+      <LandingPageGridItem isPrimary />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+    </section>
   </div>
 );
 

@@ -8,7 +8,6 @@ class LandingPage extends Component<Props> {
   render() {
     return (
       <div className="container">
-        <h1>Main</h1>
         <LandingPageGrid />
       </div>
     );

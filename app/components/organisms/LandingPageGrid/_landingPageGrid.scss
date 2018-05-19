@@ -2,18 +2,43 @@
   display: grid;
   grid-column-gap: 1em;
   margin-bottom: 3em;
+  grid-auto-rows: minmax(50px, auto);
+  // direction: rtl; this is for arabic
 
-  &.grid--3 {
+  &--3 {
     grid-template-columns: 2fr 1fr 1fr;
+    
   }
 
-  &.grid--4 {
+  &--4 {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  div {
+  &--7 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    grid-row-gap: 1em;
+  }
+
+  &--10 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3;
+    grid-row-gap: 1em;
+  }
+
+  .grid-item {
     background: #cccccc;
-    height: 100px;
+  }
+
+  .primary-grid-item {
+    background: red;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    &--10 {
+      background: blue;
+      grid-row-end: 4;
+    }
   }
 }
 
