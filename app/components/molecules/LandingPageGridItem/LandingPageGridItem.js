@@ -4,18 +4,23 @@ import PropTypes from 'prop-types';
 /*
   The component renders a landing page grid item.
  */
-const LandingPageGridItem = ({ isPrimary }) => (
-  <div className={`grid-item ${isPrimary ? 'primary-grid-item' : ''}`}>
-    grid item
-  </div>
-);
+const LandingPageGridItem = ({ isPrimary, size }) => {
+  const classes = isPrimary ? `primary-grid-item--${size}` : null;
+  return (
+    <div className={`grid-item ${classes}`}>
+      grid item
+    </div>
+  );
+};
 
 LandingPageGridItem.defaultProps = {
-  isPrimary: false
+  isPrimary: false,
+  size: null
 };
 
 LandingPageGridItem.propTypes = {
-  isPrimary: PropTypes.bool
+  isPrimary: PropTypes.bool,
+  size: PropTypes.number
 };
 
 export default LandingPageGridItem;

@@ -15,7 +15,19 @@ const LandingPageGrid = () => (
       <LandingPageGridItem />
     </section>
     <section className="grid grid--7">
-      <LandingPageGridItem isPrimary />
+      <LandingPageGridItem isPrimary size={7} />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+    </section>
+    <section className="grid grid--7">
+      <LandingPageGridItem isPrimary size={10} />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
+      <LandingPageGridItem />
       <LandingPageGridItem />
       <LandingPageGridItem />
       <LandingPageGridItem />
