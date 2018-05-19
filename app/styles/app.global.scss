@@ -1,12 +1,12 @@
 // reset
 @import './_reset.scss';
 
-// variables
+// general variables
 @import './_variables.scss';
+
+// language variables
 @import './_bi-ar-variables.scss';
 @import './_bi-en-variables.scss';
-
-// language
 
 // base styles
 @import './_base.scss';
@@ -15,6 +15,7 @@
 @import '../components/atoms/ConceptLogo/_conceptLogo.scss';
 
 // molecules
+@import '../components/molecules/LandingPageGridItem/_landingPageGridItem.scss';
 
 // organisms
 @import '../components/organisms/Header/_header.scss';
