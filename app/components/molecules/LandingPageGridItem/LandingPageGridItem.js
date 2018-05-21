@@ -13,7 +13,7 @@ const LandingPageGridItem = ({
   isPrimary,
   size
 }) => {
-  const classes = isPrimary ? `primary-grid-item__${size}` : '';
+  const classes = isPrimary ? `primary-grid-item primary-grid-item__${size}` : '';
   const itemStyle = {
     backgroundImage: `url(${image})`
   };

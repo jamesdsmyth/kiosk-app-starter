@@ -2,8 +2,8 @@
   display: grid;
   grid-column-gap: 1em;
   margin-bottom: 3em;
-  grid-auto-rows: minmax(500px, auto);
   direction: $bi-app-direction;
+  height: calc(100vh - 150px);
 
   &__3 {
     grid-template-columns: 2fr 1fr 1fr;
@@ -55,20 +55,14 @@
   }
 
   .primary-grid-item {
-
-    &__3,
-    &__4 {
-      text-align: $left;
-    }
+    text-align: $left;
     
     &__7 {
-      text-align: $left;
       grid-row-start: 1;
       grid-row-end: 3;
     }
 
     &__10 {
-      text-align: $left;
       grid-row-start: 1;
       grid-row-end: 4;
     }
