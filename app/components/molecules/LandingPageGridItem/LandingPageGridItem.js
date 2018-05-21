@@ -34,7 +34,9 @@ const LandingPageGridItem = ({
           <h2>
             {title}
           </h2>
-          
+          {
+            isPrimary && <span className="grid-item-link">Show now</span>
+          }
         </div>
       </Link>
     </div>
