@@ -13,8 +13,7 @@ const LandingPageGridItem = ({
   isPrimary,
   size
 }) => {
-  const classes = isPrimary ? `primary-grid-item__${size}` : null;
-  const subtitleElement = isPrimary ? <span>{subtitle}</span> : null;
+  const classes = isPrimary ? `primary-grid-item__${size}` : '';
   const itemStyle = {
     backgroundImage: `url(${image})`
   };
@@ -28,8 +27,15 @@ const LandingPageGridItem = ({
         to={urlLink}
         className="link-wrapper"
       >
-        <h2>{title}</h2>
-        {subtitleElement}
+        <div className="grid-item-content">
+          {
+            isPrimary && <span>{subtitle}</span>
+          }
+          <h2>
+            {title}
+          </h2>
+          
+        </div>
       </Link>
     </div>
   );

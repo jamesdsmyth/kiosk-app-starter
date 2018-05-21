@@ -15,6 +15,7 @@ export default class LandingPageGrid extends Component {
             image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
             urlLink="/"
             isPrimary
+            size={3}
           />
           <LandingPageGridItem
             title="Check the summer collection"
@@ -30,8 +31,11 @@ export default class LandingPageGrid extends Component {
         <section className="grid grid__4">
           <LandingPageGridItem
             title="Check the summer collection"
+            subtitle="25% off on dresses"
             image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
             urlLink="/"
+            isPrimary
+            size={4}
           />
           <LandingPageGridItem
             title="Check the summer collection"

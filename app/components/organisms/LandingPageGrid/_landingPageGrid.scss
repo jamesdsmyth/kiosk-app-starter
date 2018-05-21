@@ -31,20 +31,36 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
 
     .link-wrapper {
       color: $white;
+      text-decoration: none;
+      height: 100%;
+      width: 100%;
+      display: block;
+    }
+
+    .grid-item-content {
+      padding: 30px;
     }
   }
 
   .primary-grid-item {
 
+    &__3,
+    &__4 {
+      text-align: $left;
+    }
+    
     &__7 {
+      text-align: $left;
       grid-row-start: 1;
       grid-row-end: 3;
     }
 
     &__10 {
+      text-align: $left;
       grid-row-start: 1;
       grid-row-end: 4;
     }
