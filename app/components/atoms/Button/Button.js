@@ -20,12 +20,17 @@ const Button = ({
   </button>
 );
 
+/*
+  The button type needs to be one of the following.
+ */
+const buttonTypes = ['primary', 'secondary', 'tertiary'];
+
 Button.defaultProps = {
   disabled: false
 };
 
 Button.propTypes = {
-  type: PropTypes.oneOf(['primary', 'secondary', 'tertiary']).isRequired,
+  type: PropTypes.oneOf(buttonTypes).isRequired,
   text: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
   disabled: PropTypes.bool

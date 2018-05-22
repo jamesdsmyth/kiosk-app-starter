@@ -7,4 +7,14 @@
     background: rgb(109, 230, 109);
     border-color: #000000;
   }
+
+  &.button--secondary {
+    background: rgb(230, 222, 109);
+    border-color: #000000;
+  }
+
+  &.button--tertiary {
+    background: rgb(50, 180, 231);
+    border-color: #000000;
+  }
 }

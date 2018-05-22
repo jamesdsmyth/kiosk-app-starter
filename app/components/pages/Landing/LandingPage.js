@@ -15,7 +15,17 @@ class LandingPage extends Component<Props> {
         <Button
           type="primary"
           onClick={() => console.log('clicked the button')}
-          text="Submit"
+          text="Primary button"
+        />
+        <Button
+          type="secondary"
+          onClick={() => console.log('clicked the button')}
+          text="Secondary button"
+        />
+        <Button
+          type="tertiary"
+          onClick={() => console.log('clicked the button')}
+          text="Tertiary button"
         />
       </main>
     );
