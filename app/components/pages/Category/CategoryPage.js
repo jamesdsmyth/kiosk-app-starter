@@ -7,7 +7,9 @@ class CategoryPage extends Component {
   render() {
     return (
       <div className="container">
-        <h1>Main</h1>
+        <h1 className="h1">
+          Living Room
+        </h1>
       </div>
     );
   }
