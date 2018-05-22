@@ -1,0 +1,9 @@
+.promotion-item {
+  display: flex;
+  flex-direction: row;
+
+  .promotion-text {
+    display: flex;
+    flex-direction: column;
+  }
+}

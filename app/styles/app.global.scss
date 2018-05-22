@@ -13,13 +13,16 @@
 
 // atoms
 @import '../components/atoms/ConceptLogo/_conceptLogo.scss';
+@import '../components/atoms/Button/_button.scss';
 
 // molecules
 @import '../components/molecules/LandingPageGridItem/_landingPageGridItem.scss';
+@import '../components/molecules/LandingPagePromotionItem/_landingPagePromotionItem.scss';
 
 // organisms
 @import '../components/organisms/Header/_header.scss';
 @import '../components/organisms/LandingPageGrid/_landingPageGrid.scss';
+@import '../components/organisms/LandingPagePromotions/_landingPagePromotions.scss';
 
 // pages
 @import '../components/pages/Landing/_landingPage.scss';

@@ -1,0 +1,10 @@
+.button {
+  padding: 10px 15px;
+  border-radius: 2px;
+  border-width: 1px;
+
+  &.button--primary {
+    background: rgb(109, 230, 109);
+    border-color: #000000;
+  }
+}
