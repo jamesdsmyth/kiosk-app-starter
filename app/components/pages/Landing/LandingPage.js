@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LandingPageGrid from '../../organisms/LandingPageGrid/LandingPageGrid';
+import LandingPagePromotions from '../../organisms/LandingPagePromotions/LandingPagePromotions';
 
 /*
   The component renders the landing page.
@@ -7,9 +8,10 @@ import LandingPageGrid from '../../organisms/LandingPageGrid/LandingPageGrid';
 class LandingPage extends Component<Props> {
   render() {
     return (
-      <div className="container">
+      <main className="main">
         <LandingPageGrid />
-      </div>
+        <LandingPagePromotions />
+      </main>
     );
   }
 }

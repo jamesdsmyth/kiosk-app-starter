@@ -12,13 +12,11 @@ export default () => (
   <App>
     <div className="wrapper">
       <Header />
-      <main className="main">
-        <Switch>
-          <Route path="/" exact component={LandingPage} />
-          <Route path="/category" component={CategoryPage} />
-          <Redirect to="/" />
-        </Switch>
-      </main>
+      <Switch>
+        <Route path="/" exact component={LandingPage} />
+        <Route path="/category" component={CategoryPage} />
+        <Redirect to="/" />
+      </Switch>
     </div>
   </App>
 );
