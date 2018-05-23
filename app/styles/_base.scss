@@ -9,12 +9,9 @@
   flex-direction: column;
 }
 
-.h1 {
-  font-size: 40px;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 40px;
-  font-weight: 700;
+.page-heading {
+  font-size: $page-heading;
+  font-weight: 900;
+  color: $black;
+  margin-bottom: 34px;
 }

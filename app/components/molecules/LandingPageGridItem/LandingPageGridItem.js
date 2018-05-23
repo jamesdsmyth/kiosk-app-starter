@@ -29,9 +29,9 @@ const LandingPageGridItem = ({
       >
         <div className="grid-item-content">
           {
-            isPrimary && <span>{subtitle}</span>
+            isPrimary && <span className="grid-item-subtitle">{subtitle}</span>
           }
-          <h2>
+          <h2 className="grid-item-heading">
             {title}
           </h2>
           {
