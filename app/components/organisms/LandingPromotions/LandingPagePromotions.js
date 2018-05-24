@@ -1,22 +1,22 @@
 import React from 'react';
-import LandingPagePromotionItem from '../../molecules/LandingPagePromotionItem/LandingPagePromotionItem';
+import LandingPromotionItem from '../../molecules/LandingPromotionItem/LandingPromotionItem';
 
 /*
   The component renders the landing page promotions section.
  */
-const LandingPagePromotions = () => (
+const LandingPromotions = () => (
   <section className="landing-promotions">
-    <LandingPagePromotionItem
+    <LandingPromotionItem
       title="Click & Collect"
       subtitle="order online and collect in store"
       image="https://i1.lmsin.net/website_images/ae/icons/ic-click-and-collect.svg"
     />
-    <LandingPagePromotionItem
+    <LandingPromotionItem
       title="Click & Collect"
       subtitle="order online and collect in store"
       image="https://i1.lmsin.net/website_images/ae/icons/ic-click-and-collect.svg"
     />
-    <LandingPagePromotionItem
+    <LandingPromotionItem
       title="Click & Collect"
       subtitle="order online and collect in store"
       image="https://i1.lmsin.net/website_images/ae/icons/ic-click-and-collect.svg"
@@ -24,4 +24,4 @@ const LandingPagePromotions = () => (
   </section>
 );
 
-export default LandingPagePromotions;
+export default LandingPromotions;

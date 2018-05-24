@@ -15,3 +15,31 @@
   color: $black;
   margin-bottom: 34px;
 }
+
+.grid {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-bottom: 3em;
+  direction: $bi-app-direction;
+
+  &__3 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  &__4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__7 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2;
+    grid-row-gap: 1em;
+  }
+
+  &__10 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3;
+    grid-row-gap: 16px;
+  }
+}

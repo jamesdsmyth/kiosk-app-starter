@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 /*
   The component renders a landing page grid item.
  */
-const LandingPageGridItem = ({
+const LandingGridItem = ({
   title,
   subtitle,
   image,
@@ -43,13 +43,13 @@ const LandingPageGridItem = ({
   );
 };
 
-LandingPageGridItem.defaultProps = {
+LandingGridItem.defaultProps = {
   subtitle: '',
   isPrimary: false,
   size: null
 };
 
-LandingPageGridItem.propTypes = {
+LandingGridItem.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
   image: PropTypes.string.isRequired,
@@ -58,4 +58,4 @@ LandingPageGridItem.propTypes = {
   size: PropTypes.number
 };
 
-export default LandingPageGridItem;
+export default LandingGridItem;

@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import LandingPageGrid from '../../organisms/LandingPageGrid/LandingPageGrid';
-import LandingPagePromotions from '../../organisms/LandingPagePromotions/LandingPagePromotions';
+import LandingGrid from '../../organisms/LandingGrid/LandingGrid';
+import LandingPromotions from '../../organisms/LandingPromotions/LandingPromotions';
 import Button from '../../atoms/Button/Button';
 import CategoryPageGrid from '../../organisms/CategoryPageGrid/CategoryPageGrid';
 
 /*
   The component renders the landing page.
  */
-class LandingPage extends Component<Props> {
+class Landing extends Component<Props> {
   render() {
     return (
       <main className="main">
-        <LandingPageGrid />
-        <LandingPagePromotions />
+        <LandingGrid />
+        <LandingPromotions />
         <Button
           type="primary"
           onClick={() => console.log('clicked the button')}
@@ -37,4 +37,4 @@ class LandingPage extends Component<Props> {
   }
 }
 
-export default LandingPage;
+export default Landing;

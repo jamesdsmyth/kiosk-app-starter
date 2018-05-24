@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 /*
   The component renders the landing page promotions section.
  */
-const LandingPagePromotionItem = ({ title, subtitle, image }) => (
+const LandingPromotionItem = ({ title, subtitle, image }) => (
   <div className="promotion-item">
     <img
       src={image}
@@ -22,10 +22,10 @@ const LandingPagePromotionItem = ({ title, subtitle, image }) => (
   </div>
 );
 
-LandingPagePromotionItem.propTypes = {
+LandingPromotionItem.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired
 };
 
-export default LandingPagePromotionItem;
+export default LandingPromotionItem;
