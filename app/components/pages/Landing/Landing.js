@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LandingGrid from '../../organisms/LandingGrid/LandingGrid';
 import LandingPromotions from '../../organisms/LandingPromotions/LandingPromotions';
+import ResultsGrid from '../../organisms/ResultsGrid/ResultsGrid';
 import Button from '../../atoms/Button/Button';
 import CategoryPageGrid from '../../organisms/CategoryPageGrid/CategoryPageGrid';
 
@@ -32,6 +33,7 @@ class Landing extends Component<Props> {
           Living Room
         </h1>
         <CategoryPageGrid />
+        <ResultsGrid />
       </main>
     );
   }

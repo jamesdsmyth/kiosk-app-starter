@@ -1,66 +1,66 @@
 import React, { Component } from 'react';
-import LandingPageGridItem from '../../molecules/CategoryPageGridItem/CategoryPageGridItem';
+import LandingGridItem from '../../molecules/CategoryPageGridItem/CategoryPageGridItem';
 
 export default class CategoryPageGrid extends Component {
   render() {
     return (
       <section className="grid grid__4">
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
         />
-        <LandingPageGridItem
+        <LandingGridItem
           title="Check the summer collection"
           image="https://www.bluecross.org.uk/sites/default/files/assets/images/124044lpr.jpg"
           urlLink="/"
